@@ -44,18 +44,10 @@ int main() {
 
     int third = 180 - (first + second);
 
-    // condition statement
     if (third > 0){
        printf("Third angle is : %d", third);
     }
     else{
         printf("Error");
     }
-    
-    
-    
-    
-    
-    
-
 }
