@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 int main() {
+
+    // Delevop a program that converts Temperature from degree celsius to fahrient using the formula F = (9/5 * C) + 32 
     float celsius;
     printf("Enter the value of celsius : ");
     scanf("%f", &celsius);
@@ -9,6 +11,7 @@ int main() {
     printf("The Temperature in Fahrient is : %f", F);
 
 
+    // Create a program that calculates the gross salary by adding percentages of HRA, DA and TA to base salary as chosen by the user
     int bs ;
     printf("\n Enter Your Base Salary :");
     scanf("%d" , &bs);
@@ -33,7 +36,7 @@ int main() {
     int output = bs + HRA + DA + TA;
     printf("\n Output : Gross Salary is : %d" , output);
     
-
+    // Write a program to find the third angle of a triangle when two angles are given 
     int first;
     printf("\n Enter the value of first angle of triangle :");
     scanf("%d", &first);
